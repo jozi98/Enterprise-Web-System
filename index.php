@@ -9,3 +9,5 @@ $safeName = str_replace('.php', '', $page);
 echo '<a href="'.$link.'">'.$safeName.'</a> &nbsp; &nbsp;';
 }
 }
+echo '</div>';
+?>
