@@ -37,7 +37,7 @@ class View
    
    public function clicked(){
       
-      $this->model->string = "using the controller to update the view;
+      $this->model->string = "using the controller to update the view";
      
       }
    }
