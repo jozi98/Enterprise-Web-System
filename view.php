@@ -1,3 +1,4 @@
+<?php
 class View
 {
   private $model;
@@ -14,3 +15,4 @@ class View
      return '<p><a href = "mvc.php?action=clicked">'.$this->model->string."</a><p>";
       }
    }
+?>
