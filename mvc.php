@@ -1,9 +1,9 @@
 <?php
-class model
+class Model
 {
 public $string;
 
-public function__construct(){
+public function __construct(){
   $this->string = "Using PHP in MVC! Inside the Model";
   }
 }
@@ -26,7 +26,7 @@ class View
    }
 
  
- class controller
+ class Controller
 {
   private $model;
   
@@ -46,6 +46,7 @@ class View
    $controllermvc = new controller($modelmvc);
    $viewmvc = new View($modelmvc,$controllermvc);
    echo $viewmvc->output();
+
    //. is the same as ->
    
    
