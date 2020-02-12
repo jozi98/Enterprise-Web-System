@@ -1,5 +1,5 @@
 <?php
-class model
+class Model
 {
 public $string;
 
@@ -26,7 +26,7 @@ class View
    }
 
  
- class controller
+ class Controller
 {
   private $model;
   
@@ -42,8 +42,8 @@ class View
       }
    }
    
-   $model_mvc = new model();
-   $controller_mvc = new controller($model_mvc);
+   $model_mvc = new Model();
+   $controller_mvc = new Controller($model_mvc);
    $view_mvc = new View($model_mvc,$controller_mvc);
    echo $view_mvc->output();
    //. is the same as ->
