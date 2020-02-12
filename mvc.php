@@ -3,7 +3,7 @@ class Model
 {
 public $string;
 
-public function__construct(){
+public function __construct(){
   $this->string = "Using PHP in MVC! Inside the Model";
   }
 }
