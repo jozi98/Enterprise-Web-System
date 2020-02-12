@@ -42,10 +42,10 @@ class View
       }
    }
    
-   $model_mvc = new model();
-   $controller_mvc = new controller($model_mvc);
-   $view_mvc = new View($model_mvc,$controller_mvc);
-   echo $view_mvc->output();
+   $modelmvc = new model();
+   $controllermvc = new controller($modelmvc);
+   $viewmvc = new View($modelmvc,$controllermvc);
+   echo $viewmvc->output();
    //. is the same as ->
    
    
